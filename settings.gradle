@@ -1,2 +1,4 @@
+include ':pyment'
 include ':app'
+project(':pyment').projectDir = new File(rootDir, 'modules/payment/pyment/')
 rootProject.name = "My Application"
