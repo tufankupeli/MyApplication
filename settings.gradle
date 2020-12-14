@@ -1,4 +1,4 @@
-include ':pyment'
+include ':myPayment'
 include ':app'
-project(':pyment').projectDir = new File(rootDir, 'modules/payment/pyment/')
+project(':myPayment').projectDir = new File(rootDir, 'modules/payment/myPayment/')
 rootProject.name = "My Application"
