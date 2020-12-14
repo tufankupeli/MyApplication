@@ -1,0 +1,3 @@
+[submodule "modules/payment"]
+	path = modules/payment
+	url = git@github.com:tufankupeli/PaymentAppModule.git
